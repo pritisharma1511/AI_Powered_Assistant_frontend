@@ -1,10 +1,10 @@
  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
  @import "tailwindcss";
 
- @theme {
+ :root {
   --font-display: 'Urbanist', sans-serif;
   --breakpoint-3xl: 1920px;
-  --coloor-primary: #ff9324;
+  --color-primary: #ff9324;
  }
   @layer base {
     html{
@@ -13,12 +13,5 @@
     body {
       background-color: #fcfbfc;
     }
-    h1, h2, h3, h4, h5, h6 {
-      font-family: var(--font-display);
-      font-weight: 700;
-    }
-    a {
-      color: var(--coloor-primary);
-      text-decoration: none;
-    }
+    
  }
