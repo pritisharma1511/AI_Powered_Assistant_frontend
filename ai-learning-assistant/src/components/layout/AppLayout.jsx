@@ -6,4 +6,4 @@ const AppLayout = () => {
   )
 }
 
-export default AppLayout;S
+export default AppLayout;
